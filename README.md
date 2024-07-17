@@ -87,7 +87,7 @@ You can find the detailed information on the diagram below:
 ### 📤 Data Ingestion
 - Connected the on-premise SQL Server with Azure using Microsoft Integration Runtime.
 
-- Setup the **Resource group** with needed services (Key Vault, Storage Account, Data Factory, Databricks, Synapse Analytics)
+- Setup the **Resource group** with needed services (Storage Account, Data Factory, Databricks, Synapse Analytics)
 
 - Migrated the tables from on-premise SQL Server to Azure Data Lake Storage Gen2.
 
@@ -95,7 +95,7 @@ You can find the detailed information on the diagram below:
 ### ⚙️ Data Transformation
 - Mounted Azure Blob Storage to Databricks to retrieve raw data from the Data Lake.
 - Used Spark Cluster in Azure Databricks to clean and refine the raw data.
-- Saved the cleaned data in a Delta format; optimized for further analysis.
+- Saved the cleaned data in a PARQUET format; optimized for further analysis.
 
 <a name="data-loading"></a>
 ### 📥 Data Loading
@@ -114,7 +114,6 @@ You can find the detailed information on the diagram below:
 - **Orchestration**: Azure Data Factory
 - **Ingestion**: Azure Data Lake Gen2
 - **Storage**: Azure Synapse Analytics
-- **Authentication and Secrets Management**: Azure Active Directory and Azure Key Vault
 - **Data Visualization**: PowerBI
 
 <a name="credits"></a>
