@@ -36,7 +36,21 @@ Dataset link : https://drive.google.com/file/d/1i4aRieq_WDVJDGpqtZq8UW9CH8sCbaBd
 ![image](https://github.com/zBalachandar/Pizza-Sales-Data-Analytics---End-to-End-Azure-Data-Engineering-Production-level-project1/blob/fc1248ff92a79364c7dad272c407c60942d252ae/Assets/Business%20requirement.jpg)
 
 ### Project steps to follow: 
+In this project we are going to create an end to end data platform right from Data Ingestion, Data Transformation, Data Loading and Reporting. 
+
+The tools that are covered in this project are,
+
+1. SQL server migration 
+2. Azure Data Factory
+3. Azure Data Lake Storage Gen2
+4. Azure Databricks
+5. PYSPARK
+6. SPARK SQL
+7. Microsoft Power BI
+
+The use case for this project is building an end to end solution by ingesting the tables from on-premise SQL Server database using Azure Data Factory and then store the data in Azure Data Lake. Then Azure databricks is used to transform the RAW data to the most cleanest form of data and  finally using Microsoft Power BI to integrate with Azure synapse analytics to build an interactive dashboard. 
 ![image](https://github.com/zBalachandar/Pizza-Sales-Data-Analytics---End-to-End-Azure-Data-Engineering-Production-level-project1/blob/fc1248ff92a79364c7dad272c407c60942d252ae/Assets/Steps.jpg)
+
 ### 🎯 Project Goals
 
 - Establish a connection between on-premise SQL server and Azure cloud.
@@ -73,15 +87,9 @@ You can find the detailed information on the diagram below:
 ### 📤 Data Ingestion
 - Connected the on-premise SQL Server with Azure using Microsoft Integration Runtime.
 
-![image](https://github.com/Hamagistral/Azure-AW/assets/66017329/b57debac-28c2-4928-8640-676643e0177c)
-
 - Setup the **Resource group** with needed services (Key Vault, Storage Account, Data Factory, Databricks, Synapse Analytics)
 
-
 - Migrated the tables from on-premise SQL Server to Azure Data Lake Storage Gen2.
-
-![image](https://github.com/Hamagistral/Azure-AW/assets/66017329/2b9855a9-9ad7-4ac3-8076-70762ef0f3bc)
-![df-pipeline](https://github.com/Hamagistral/Azure-AW/assets/66017329/21ed74aa-8bf4-46c5-952c-4dc9f14dc9fb)
 
 <a name="data-transformation"></a>
 ### ⚙️ Data Transformation
