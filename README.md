@@ -93,11 +93,11 @@ You can find the detailed information on the diagram below:
 <a name="data-transformation"></a>
 ### ⚙️ Data Transformation
 - Mounted Azure Blob Storage to Databricks to retrieve raw data from the Data Lake.
-- Used Spark Cluster in Azure Databricks to clean and refine the raw data.
+- Used Spark Cluster in Azure Databricks to clean and refine the raw data And do some aggregations.
 - Saved the cleaned data in a PARQUET format; optimized for further analysis.
 
 <a name="data-loading"></a>
-### 📥 Data Loading
+### 📥 Data Loading(only required for instant analytics)
 - Used Azure Synapse Analytics to load the refined data efficiently.
 - Created SQL database and connected it to the data lake.
 
@@ -112,7 +112,7 @@ You can find the detailed information on the diagram below:
 - **Data Source**: SQL Server
 - **Orchestration**: Azure Data Factory
 - **Ingestion**: Azure Data Lake Gen2
-- **Storage**: Azure Synapse Analytics
+- **Storage**: Azure Synapse Analytics(if required)
 - **Data Visualization**: PowerBI
 
 <a name="credits"></a>
