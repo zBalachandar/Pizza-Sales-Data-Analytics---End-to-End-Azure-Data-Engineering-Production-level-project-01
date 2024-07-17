@@ -66,7 +66,7 @@ The use case for this project is building an end to end solution by ingesting th
 
 - 💸 **Total Revenue by Product Category**
  
-- 🌍 **Sales by Pizza Name and size **
+- 🌍 **Sales by Pizza Name and size**
   - **N°1:** The L size pizza generated the total revenue of 45%.
   - **N°2:** The M size pizza generated the total revenue of 30.49%.
 
