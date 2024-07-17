@@ -6,7 +6,7 @@
 
   <div id="user-content-toc">
     <ul>
-      <summary><h1 style="display: inline-block;">🔧 Analyzing Sales of AdventureWorks 🔌</h1></summary>
+      <summary><h1 style="display: inline-block;">🔧 Analyzing Sales of Pizza sales Data🔌</h1></summary>
     </ul>
   </div>
   
@@ -31,13 +31,7 @@
 This an end-to-end data engineering project on the Azure cloud. Where I did data ingestion from a on-premise SQL Server to Azure Data Lake using Data Factory to transformation using Databricks and Spark, loading to Synapse, and reporting using PowerBI. Also, I used Azure Active Directory (AAD) and Azure Key Vault for the data monitoring and governance purpose. 
 
 ### 💾 Dataset
-
-**AdventureWorks** is a database provided by Microsoft for free on online platforms. It is a product sample database originally published by Microsoft to demonstrate the supposed design of a SQL server database using SQL server 2008. Here are some key points to know about AdventureWorks:
-
-- AdventureWorks database supports a manufacturing MNC named Adventure Works Cycles.
-- It is a sample Online Transaction Processing (or OLTP) database, which is a type of data processing where multiple transactions occur concurrently. These are shipped by Microsoft with all of their SQL server products.
-
-> For this project I used the **Lightweight (LT) data**: a lightweight and pared down version of the OLTP sample. [Download here](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksLT2022.bak)
+Dataset link : https://drive.google.com/file/d/1i4aRieq_WDVJDGpqtZq8UW9CH8sCbaBd/view?pli=1
 
 ### 🎯 Project Goals
 
@@ -69,7 +63,7 @@ This an end-to-end data engineering project on the Azure cloud. Where I did data
 
 You can find the detailed information on the diagram below:
 
-![AzurePipeline-Hamagistral](https://github.com/Hamagistral/Azure-AW/assets/66017329/ebb0f88b-917f-4a6a-be6b-ddf6093ad793)
+![image](https://github.com/zBalachandar/Pizza-Sales-Data-Analytics---End-to-End-Azure-Data-Engineering-Production-level-project1/blob/e654d77b8eba8d60bc63aadd49832b0eefb9b910/Assets/Project%20Architecture-%20Sales%20data%20analytics.jpg)
 
 <a name="data-ingestion"></a>
 ### 📤 Data Ingestion
@@ -106,7 +100,7 @@ You can find the detailed information on the diagram below:
 ### 📊 Data Reporting
 - Connected Microsoft Power BI to Azure Synapse, and used the Views of the DB to create interactive and insightful data visualizations.
 
-![PowerBI-dashboard](https://github.com/Hamagistral/Azure-AW/assets/66017329/30bb3c61-1503-42a3-8b03-cd7c3da7bb82)
+![PowerBI-dashboard](https://github.com/zBalachandar/Pizza-Sales-Data-Analytics---End-to-End-Azure-Data-Engineering-Production-level-project1/blob/e654d77b8eba8d60bc63aadd49832b0eefb9b910/Assets/Power%20BI%20report%20img%20Report%20with%20features.png)
 
 ### 🛠️ Technologies Used
 
@@ -125,6 +119,5 @@ You can find the detailed information on the diagram below:
 <a name="contact"></a>
 ## 📨 Contact Me
 
-[LinkedIn](https://www.linkedin.com/in/hamza-elbelghiti/) •
-[Website](https://Hamagistral.me) •
-[Gmail](hamza.lbelghiti@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/balachandars2022/) •
+[Gmail](balachandar2014elu@gmail.com)  •
